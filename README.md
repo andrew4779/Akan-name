@@ -13,7 +13,6 @@ This project has been written with HTML,CSS and Javascript
 ## Support and contact details
 If any issue concerning the project,you can reach me through;
 Email:andrewkimani02@gmail.com.
-contact:+254793857337.
 ### License
 This software is under the [MIT](LICENSE) license
 Copyright (c) {2021}# practice.
