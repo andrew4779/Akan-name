@@ -5,7 +5,7 @@ function fn(){
     var mm = parseInt(document.getElementById("month").value) - 1;
     var yyyy = parseInt(document.getElementById("year").value);
 //validating days
-    if (day < 0 || day > 31) {
+    if (day < 0 || day > 30) {
         document.getElementsByClassName("dayerror").innerHtml = "Enter valid Date";
         return false;
     } else if (date =="") {
