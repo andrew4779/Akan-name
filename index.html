@@ -25,12 +25,7 @@
         </div>
         <form>
             <h1 class="text-primary">Enter your birth date:</h1>
-            <input type="name" id="name" class="form-control" placeholder="name">
-            <p id="dayerror"></p>
-
             <input type="date" id="day" class="form-control" placeholder="day">
-            <p id="dayerror"></p>
-
 
             <h1 text-primary>Select your gender</h1>
             <label for="Male">Male:</label>
@@ -40,6 +35,8 @@
             <p id="check-boxerror"></p>
 
            <input type="submit" name="submit" value="submit" onclick="getAkanName()">
+            <input type="name" id="name" class="form-control" placeholder="name">
+            <p id="dayerror">
            <p class="bottom">The Akan name is: <span id="akanName"></p>
         </form>
         <script src="script.js"></script>
