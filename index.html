@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/styles.css">
+   
+</head>
+<body>
+    <div class="formelements">
+        <div class="description">
+           <h1 class="display-4 text-primary">The Akan Naming System</h1>
+           <p>This is a website determinig your name based on the day of the week you were born.<p>
+               This is a Ghanian naming system where children are given their first name as a 'day name' which corresponds to the day in the week they were born.</p>
+               Male born children are named as follows;</p>
+           <p>Sunday-Kwasi,Monday-Kwadwo,Tuesday-Kwabena,Wednesday-Kwaku,Thursday-Yaw,Friday-Kofi,Saturday-Kwame.</p>
+                Female born children are named;</p>
+           <p>Sunday-Akosua,Monday-Adwo.a,Tuesday-Abenaa,Wednesday-Akua,Thursday-Yaa,Friday-Afua,Saturday-Ama.</p>
+    </div>
+    <form>
+    <h1 class="text-primary">Enter your birth date:</h1>
+   <input type="name"id="name" class="form-control" placeholder="name">
+    <p id="dayerror"></p> 
+
+    <input type="date"id="day" class="form-control" placeholder="day">
+    <p id="dayerror"></p>
+
+    
+    <h1 text-primary>Select your gender</h1>
+    <label for="Male">Male:</label>
+    <input type="checkbox"id="Male" class="">
+    <label for="Female">Female:</label>
+    <input type="checkbox" id="Female" class="">
+    <p id="check-boxerror"></p>
+
+    <button type="button" onclick="fn()">Akan name</button>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
